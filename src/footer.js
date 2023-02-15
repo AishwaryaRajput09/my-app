@@ -1,6 +1,6 @@
 import React from "react";
 
-const footer = () =>{
+const Footer = () =>{
     return(
         <section className="footer bg-dark text-white">
             <p className="lead container">Contact Us on instagram</p>
@@ -9,4 +9,4 @@ const footer = () =>{
         </section>
     );
 }
-export default footer;
+export default Footer;
