@@ -10,8 +10,8 @@ pipeline {
         }
         stage("Deploy") {
             steps {
-                sh "sudo rm -rf /var/www/react-app"
-                sh "sudo cp -r build/ /var/www/react-app/"
+                sh "sudorm -rf /var/www/react-app"
+                sh "cp -r build/ /var/www/react-app/"
             }
         }
     }
